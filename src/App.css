@@ -1,38 +1,72 @@
-.App {
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+}
+span {
+  font-weight: 800;
+  font-size: 40px;
+}
+.left {
+  width: 50%;
+  float: left;
+  height: 800px;
+  font-size: 40px;
+  background: cyan;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  padding-top: 20%;
 }
-
-.App-link {
-  color: #61dafb;
+.right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 70px 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-form {
+  position: relative;
+  padding-top: 45px;
+}
+.floating-input {
+  width: 50%;
+  height: 30px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+.register-button {
+  width: 55%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #333c4e;
+  border: none;
+  color: #ffffff;
+}
+.cancel-button {
+  width: 55%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2b8cc9;
+  color: black;
+}
+.title {
+  position: relative;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.f-icon {
+  position: relative;
+  top: 10px;
+}
+.new-registration {
+  float: left;
+  padding-left: 171px;
+}
+.reset-password {
+  float: right;
+  padding-right: 171px;
 }
